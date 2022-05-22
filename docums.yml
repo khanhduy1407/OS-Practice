@@ -68,8 +68,11 @@ plugins:
       minify_css: true
       htmlmin_opts:
         remove_comments: true
-  - git-authors
   - git-revision-date
+  - git-authors:
+      show_contribution: true
+      show_line_count: true
+      count_empty_lines: true
   - git-revision-date-localized:
       type: timeago
       timezone: Asia/Ho_Chi_Minh
