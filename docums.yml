@@ -72,7 +72,7 @@ plugins:
   - git-revision-date
   - git-revision-date-localized:
       type: timeago
-      timezone: 	Asia/Ho_Chi_Minh
+      timezone: Asia/Ho_Chi_Minh
       locale: vi
       fallback_to_build_date: true
       enable_creation_date: true
