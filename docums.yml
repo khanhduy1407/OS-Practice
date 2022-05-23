@@ -8,10 +8,12 @@ site_description: >-
 # Repository
 repo_name: khanhduy1407/os-practice
 repo_url: https://github.com/khanhduy1407/os-practice
-edit_uri: "https://github.com/khanhduy1407/os-practice/tree/docums"
+edit_uri: "https://github.com/khanhduy1407/os-practice/tree/docums/docs"
 
 # Copyright
 copyright: Bản quyền &copy; 2022 NKDuy
+
+use_directory_urls: false
 
 # Configuration
 theme:
@@ -69,10 +71,7 @@ plugins:
       htmlmin_opts:
         remove_comments: true
   - git-revision-date
-  - git-authors:
-      show_contribution: true
-      show_line_count: true
-      count_empty_lines: true
+  - git-authors
   - git-revision-date-localized:
       type: timeago
       timezone: Asia/Ho_Chi_Minh
