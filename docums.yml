@@ -131,9 +131,6 @@ markdown_extensions:
 # Page tree
 nav:
   - Trang chủ: index.md
-  - Kiến thức:
-    - Tổng quan: tong-quan.md
-#  - Chuyên sâu:
   - Bài tập:
-    - bai-tap/index.md
-    - Bài 1: bai-tap/bai-1.md
+    - Bài 1: bai-1.md
+    - Bài 2: bai-2.md

@@ -7,4 +7,4 @@ Nội dung môn học nhấn mạnh đến các nguyên tắc, chủ đề, phư
 !!! warning "Ghi chú"
     Bài học này chỉ sử dụng Hệ điều hành CentOS (một bản phân phối của Hệ điều hành Linux)
 
-[Bắt đầu](tong-quan.md) đi vào môn học
+[Bắt đầu](bai-1.md) làm bài tập

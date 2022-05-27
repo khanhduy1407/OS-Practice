@@ -12,7 +12,7 @@ Tạo cây thư mục như sau:
         
 Sử dụng lệnh `mkdir` để tạo thư mục con:
 
-``` bash title="root@localhost:~home/dsl"
+``` bash title="Terminal: root@localhost:~home/dsl"
 [root@localhost ~]$ pwd  #(1)
 /home/dsl
 [root@localhost CTH]$ mkdir CTH && cd CTH  #(2)
@@ -36,7 +36,7 @@ $ touch test1.c
 
 Tương tự tạo ra các file: __test2.c__, __test3.c__, __test4.c__
 
-``` bash title="root@localhost:~home/dsl"
+``` bash title="Terminal: root@localhost:~home/dsl"
 [root@localhost CTH]$ cd user1
 [root@localhost user1]$ touch test1.c
 [root@localhost user1]$ touch test2.c
@@ -53,7 +53,7 @@ Như bạn thấy kích thước các file được tạo ra bởi lệnh `touch
 
 Cách thứ 2 là dùng lệnh `cat` với định hướng đầu ra là tên file như ví dụ sau:
 
-``` bash title="root@localhost:~home/dsl"
+``` bash title="Terminal: root@localhost:~home/dsl"
 [root@localhost user2]$ cat >otherfile
 Hello Linux
 [root@localhost user2]$ ls -l otherfile
@@ -68,7 +68,7 @@ Lệnh `cat` chuyển hướng cho phép bạn nhập vào nội dung cho file v
 - Sao chép tập tin __test3.c__ từ thư mục __user2__ sang __user1__
 - Kiểm tra tập tin trong __user1__ và __user2__
 
-``` bash title="root@localhost:~home/dsl"
+``` bash title="Terminal: root@localhost:~home/dsl"
 [root@localhost user2]$ cp test3.c ../user1
 [root@localhost user2]$
 [root@localhost user2]$ ls -l   #(1)
@@ -109,7 +109,7 @@ Bạn dùng lệnh `mv` để di chuyển hoặc đổi tên file. Trong Linux �
 - Di chuyển __test4.c__ từ __user2__ sang __user1__
 - Kiểm tra những tập tin trong __user1__ sang __user2__
 
-``` bash title="root@localhost:~home/dsl"
+``` bash title="Terminal: root@localhost:~home/dsl"
 [root@localhost user2]$ mv test4.c ../user1
 [root@localhost user2]$
 [root@localhost user2]$ ls -l   #(1)
